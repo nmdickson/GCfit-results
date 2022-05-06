@@ -5,7 +5,7 @@
 
 - IMF/
   * Posterior distributions on IMF exponent slopes (α)
-  * α_3 vs metallicity, with and without cuts on remaining mass fraction μ and updated μ estimates
+  * α_3 vs metallicity, with remaining mass fraction μ and updated μ estimates
 
 - BH/
   * Posterior distributions on the number and mass of black holes in each cluster
