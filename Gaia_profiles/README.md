@@ -19,6 +19,7 @@ import h5py
 
 f = h5py.File('NGC0104_profiles.hdf', 'r')
 r, μ_R, μ_T = f['R'], f['pmr'], f['pmt']
+μ_tot = np.sqrt((μ_R**2 + μ_T**2) / 2.)
 
 # Units are stored as attributes on each dataset
 import astropy.units as u

@@ -22,3 +22,5 @@
 - `paperI_figures/`
   + All figures from paperI (Multimass modelling of Milky Way globular clusters I. Implications on their stellar initial mass function above 1 Msun)
   
+- `Gaia_profiles`
+  + All extracted Gaia EDR3 proper motion dispersion profiles
