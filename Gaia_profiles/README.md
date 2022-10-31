@@ -18,12 +18,12 @@ Profiles can easily be extracted in Python using `h5py`:
 import h5py
 
 f = h5py.File('NGC0104_profiles.hdf', 'r')
-r, μ_R, μ_T = f['R'], f['pmr'], f['pmt']
+r, μ_R, μ_T = f['R'][:], f['pmr'][:], f['pmt'][:]
 μ_tot = np.sqrt((μ_R**2 + μ_T**2) / 2.)
 
 # Units are stored as attributes on each dataset
 import astropy.units as u
-r = f['R'] << u.Unit(f['R'].attrs['unit'])
+r = f['R'][:] << u.Unit(f['R'].attrs['unit'])
 
 # Metadata surrounding the dispersion fitting stored as attributes on the file
 stars_per_bin = f.attrs['Nstars']
