@@ -32,3 +32,6 @@ min_membership_prob = f.attrs['memberprob']
 
 f.close()
 ```
+
+`GEDR3_PM_profiles.dat` contains a machine-readable table of the profiles for
+all clusters in one file. This table is also available from 
