@@ -34,4 +34,5 @@ f.close()
 ```
 
 `GEDR3_PM_profiles.dat` contains a machine-readable table of the profiles for
-all clusters in one file. This table is also available from 
+all clusters in one file. This table is also available from zenodo:
+doi:10.5281/zenodo.7344596
