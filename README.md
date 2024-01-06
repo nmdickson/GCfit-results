@@ -7,7 +7,7 @@
 
 - `parameters/`
   + Summary (machine-readable) table of all best-fitting parameters with statistical uncertainties
-  + All figures represent final sample of clusters used in paperI, including ω-cen and fixed core-collapsed clusters. See the papers (or `paper_figures/`) for cleaner plots.
+  + All figures represent the final sample of clusters as used in paperI (i.e. including ω-cen and with fixed core-collapsed clusters), after refits for paperII. See the papers (or `paper{I,II}_figures/`) for cleaner plots.
   + `comparisons/`
     * Distance, remnant fraction, mass, half-mass radius and BH mass comparisons with various literature values
   + `distributions/`
