@@ -2,6 +2,7 @@
 
 - `clusters/`
   + `NGC*/`
+    * Output files from all sampling runs, for each cluster (see below)
     * Parameter posteriors, marginal distributions, black hole probability distributions, kinematic profiles, cumulative mass profiles and mass function confidence intervals, for each cluster
     * Core collapsed clusters are also shown without BHs under `no_BHs/`
 
@@ -24,3 +25,13 @@
   
 - `Gaia_profiles`
   + All extracted Gaia EDR3 proper motion dispersion profiles
+
+
+## Using sampler output files
+
+The sampler outputs from all of the fitting runs, including parameter chains,
+likelihoods, priors, nested bounds, etc., are available for each cluster,
+as HDF5 files (`clusters/NGC*_sampler.hdf`).
+
+For more instructions and information on using these outputs and recreating the
+models, see the [GCfit documentation](https://gcfit.readthedocs.io/en/develop/usage/analysis_usage.html#fitting-results).
